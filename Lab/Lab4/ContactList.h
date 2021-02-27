@@ -9,8 +9,8 @@
 #import "Contact.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
 @interface ContactList : NSObject
+@property  NSMutableArray *array;
 - (instancetype)initWithArray:(NSMutableArray*) array;
 -(void)addContact:(Contact *)newContact;
 -(void)printAll;

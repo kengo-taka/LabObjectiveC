@@ -7,11 +7,11 @@
 
 #import "Contact.h"
 
-@interface Contact()
-@property (nonatomic) NSString* name;
-@property (nonatomic) NSString* email;
-
-@end
+//@interface Contact()
+////@property (nonatomic) NSString* name;
+////@property (nonatomic) NSString* email;
+//
+//@end
 @implementation Contact
 - (instancetype)initWithName:(NSString*) name Email:(NSString*) email
 {

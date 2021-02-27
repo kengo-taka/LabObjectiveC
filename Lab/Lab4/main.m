@@ -14,10 +14,11 @@
 int main(int argc, const char * argv[]) {
   @autoreleasepool {
     NSMutableArray *array = [NSMutableArray array];
-    ContactList *cl = [[ContactList alloc] initWithArray:array];
+    
     //    NSMutableArray *cl = [NSMutableArray arrayWithObjects:nil];
     InputCollector *ic = [[InputCollector alloc] init];
     while (YES) {
+      ContactList *cl = [[ContactList alloc] initWithArray:array];
       NSString* userinput = [ic inputForPrompt:@"What would you like to do next?\nnew - Create a new contact\nlist - List all contacts\nquit - Exit Application"];
       if ([userinput isEqualToString:@"new"]) {
         NSString* userName = [ic inputForPrompt:@"What is your name?"];

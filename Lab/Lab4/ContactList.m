@@ -6,9 +6,8 @@
 //
 
 #import "ContactList.h"
-#import "Contact.h"
 @interface ContactList()
-@property (nonatomic) NSMutableArray* array;
+//@property (nonatomic) NSMutableArray* array;
 -(void)addContact:(Contact *)newContact;
 -(void)printAll;
 
@@ -31,7 +30,7 @@
 {
   if (self.array.count > 0){
   for (int i = 0; i < [self.array count]; i++) {
-    NSLog(@"%@", self.array[i]);
+    NSLog(@"Name is %@ , Email is %@ ", [self.array[i] name],[self.array[i] email]);
 }
   } else {
     NSLog(@"There is no Contact");
