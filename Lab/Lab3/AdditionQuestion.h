@@ -11,8 +11,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AdditionQuestion : NSObject
 
+@property (assign) NSString* question;
+@property (nonatomic, assign) NSInteger answer;
+@property (assign) NSDate* startTime;
+@property (assign) NSDate* endTime;
+
+
 - (instancetype)initWithQ:(NSString*) question Answer:(int) answer;
-//-(void) sayQuestion;
+////overriding getter
+//- (NSInteger)answer {
+//  _endTime = [NSDate date];
+//  return _answer;
+//}
 @end
 
 NS_ASSUME_NONNULL_END

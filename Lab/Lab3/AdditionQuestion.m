@@ -7,34 +7,29 @@
 
 #import "AdditionQuestion.h"
 
-@interface AdditionQuestion()
-@property (assign) NSString* question;
-@property (assign) NSInteger answer;
-
-
-//-(void) sayQuestion;
-@end
 @implementation AdditionQuestion
 - (instancetype)initWithQ:(NSString*) question Answer:(int) answer
 {
   self = [super init];
   if (self) {
-//    int randInt1 = arc4random_uniform(91) + 10;
-//    int randInt2 = arc4random_uniform(91) + 10;
-//    NSString *str1 = [NSString stringWithFormat:@"%d", randInt1];
-//    NSString *str2 = [NSString stringWithFormat:@"%d", randInt2];
-//    question = [NSString stringWithFormat:@"%@ + %@ ?",str1,str2];
-//    answer = randInt1 + randInt2;
+
     _question = question;
     _answer = answer;
+    _startTime = [NSDate date];
+    
   }
   return self;
 }
-//
-//-(void) sayQuestion
-//{
-//  NSLog(@"%@",_question);
-//}
+//overriding getter
+- (NSInteger)answer {
+  _endTime = [NSDate date];
+  return _answer;
+}
+
+- (NSTimeInterval)answerTime
+{
+  return [_endTime timeIntervalSinceDate:_startTime];
+}
 
 
 @end

@@ -22,6 +22,7 @@
   }
   return self;
 }
+
 -(void)addContact:(Contact *)newContact
 {
   [self.array addObject: newContact];
