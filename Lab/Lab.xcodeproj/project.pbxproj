@@ -24,6 +24,20 @@
 		B06EA9CC25EF22820029E224 /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EA9CB25EF22820029E224 /* FoodTruck.m */; };
 		B06EA9D725EF239B0029E224 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EA9D625EF239B0029E224 /* Cook.m */; };
 		B06EA9E325F073E50029E224 /* AnotherCook.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EA9E225F073E50029E224 /* AnotherCook.m */; };
+		B06EA9F325F0AE7B0029E224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EA9F225F0AE7B0029E224 /* main.m */; };
+		B06EAA0225F0AF620029E224 /* inputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA0125F0AF620029E224 /* inputCollector.m */; };
+		B06EAA0E25F0B3680029E224 /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA0D25F0B3680029E224 /* PaymentGateway.m */; };
+		B06EAA1A25F0C2CD0029E224 /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA1925F0C2CD0029E224 /* PaypalPaymentService.m */; };
+		B06EAA2625F0C2E80029E224 /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA2525F0C2E80029E224 /* StripePaymentService.m */; };
+		B06EAA3225F0C2FC0029E224 /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA3125F0C2FC0029E224 /* AmazonPaymentService.m */; };
+		B06EAA4725F0E2F20029E224 /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA4625F0E2F20029E224 /* ApplePaymentService.m */; };
+		B06EAA5325F0E7DA0029E224 /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA5225F0E7DA0029E224 /* Kitchen.m */; };
+		B06EAA5F25F0E8020029E224 /* NewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA5E25F0E8020029E224 /* NewManager.m */; };
+		B06EAA6B25F0E8240029E224 /* SecondManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA6A25F0E8240029E224 /* SecondManager.m */; };
+		B06EAA8025F0F8190029E224 /* DeliveryService.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA7F25F0F8190029E224 /* DeliveryService.m */; };
+		B06EAA8C25F0F82C0029E224 /* DeliveryCar.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA8B25F0F82C0029E224 /* DeliveryCar.m */; };
+		B06EAA9825F0FD4D0029E224 /* inputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAA9725F0FD4D0029E224 /* inputCollector.m */; };
+		B06EAAA425F1651D0029E224 /* RealManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EAAA325F1651D0029E224 /* RealManager.m */; };
 		B0FE60C725E46619001C3243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FE60C625E46619001C3243 /* main.m */; };
 		B0FE60E325E5F722001C3243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FE60E225E5F722001C3243 /* main.m */; };
 		B0FE60E925E5F73C001C3243 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FE60D925E5E8D4001C3243 /* Box.m */; };
@@ -68,6 +82,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B06EA9B925EF22280029E224 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B06EA9EE25F0AE7B0029E224 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -140,6 +163,34 @@
 		B06EA9D625EF239B0029E224 /* Cook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
 		B06EA9E125F073E50029E224 /* AnotherCook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherCook.h; sourceTree = "<group>"; };
 		B06EA9E225F073E50029E224 /* AnotherCook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherCook.m; sourceTree = "<group>"; };
+		B06EA9F025F0AE7B0029E224 /* Lab10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab10; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06EA9F225F0AE7B0029E224 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B06EAA0025F0AF620029E224 /* inputCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inputCollector.h; sourceTree = "<group>"; };
+		B06EAA0125F0AF620029E224 /* inputCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = inputCollector.m; sourceTree = "<group>"; };
+		B06EAA0C25F0B3680029E224 /* PaymentGateway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
+		B06EAA0D25F0B3680029E224 /* PaymentGateway.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentGateway.m; sourceTree = "<group>"; };
+		B06EAA1825F0C2CD0029E224 /* PaypalPaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaypalPaymentService.h; sourceTree = "<group>"; };
+		B06EAA1925F0C2CD0029E224 /* PaypalPaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaypalPaymentService.m; sourceTree = "<group>"; };
+		B06EAA2425F0C2E80029E224 /* StripePaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StripePaymentService.h; sourceTree = "<group>"; };
+		B06EAA2525F0C2E80029E224 /* StripePaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StripePaymentService.m; sourceTree = "<group>"; };
+		B06EAA3025F0C2FC0029E224 /* AmazonPaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmazonPaymentService.h; sourceTree = "<group>"; };
+		B06EAA3125F0C2FC0029E224 /* AmazonPaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
+		B06EAA4525F0E2F20029E224 /* ApplePaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
+		B06EAA4625F0E2F20029E224 /* ApplePaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
+		B06EAA5125F0E7DA0029E224 /* Kitchen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
+		B06EAA5225F0E7DA0029E224 /* Kitchen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
+		B06EAA5D25F0E8020029E224 /* NewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewManager.h; sourceTree = "<group>"; };
+		B06EAA5E25F0E8020029E224 /* NewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewManager.m; sourceTree = "<group>"; };
+		B06EAA6925F0E8240029E224 /* SecondManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondManager.h; sourceTree = "<group>"; };
+		B06EAA6A25F0E8240029E224 /* SecondManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondManager.m; sourceTree = "<group>"; };
+		B06EAA7E25F0F8190029E224 /* DeliveryService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryService.h; sourceTree = "<group>"; };
+		B06EAA7F25F0F8190029E224 /* DeliveryService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryService.m; sourceTree = "<group>"; };
+		B06EAA8A25F0F82C0029E224 /* DeliveryCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryCar.h; sourceTree = "<group>"; };
+		B06EAA8B25F0F82C0029E224 /* DeliveryCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryCar.m; sourceTree = "<group>"; };
+		B06EAA9625F0FD4D0029E224 /* inputCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inputCollector.h; sourceTree = "<group>"; };
+		B06EAA9725F0FD4D0029E224 /* inputCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = inputCollector.m; sourceTree = "<group>"; };
+		B06EAAA225F1651D0029E224 /* RealManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealManager.h; sourceTree = "<group>"; };
+		B06EAAA325F1651D0029E224 /* RealManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealManager.m; sourceTree = "<group>"; };
 		B0FE60C325E46619001C3243 /* Lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FE60C625E46619001C3243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0FE60D825E5E8D4001C3243 /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
@@ -180,6 +231,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B06EA9B825EF22280029E224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06EA9ED25F0AE7B0029E224 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,8 +308,22 @@
 			isa = PBXGroup;
 			children = (
 				B06EA9A025EF09990029E224 /* main.m */,
+				B06EAA9625F0FD4D0029E224 /* inputCollector.h */,
+				B06EAA9725F0FD4D0029E224 /* inputCollector.m */,
 				B06EA9AC25EF0A350029E224 /* Pizza.h */,
 				B06EA9AD25EF0A350029E224 /* Pizza.m */,
+				B06EAA5D25F0E8020029E224 /* NewManager.h */,
+				B06EAA5E25F0E8020029E224 /* NewManager.m */,
+				B06EAAA225F1651D0029E224 /* RealManager.h */,
+				B06EAAA325F1651D0029E224 /* RealManager.m */,
+				B06EAA7E25F0F8190029E224 /* DeliveryService.h */,
+				B06EAA7F25F0F8190029E224 /* DeliveryService.m */,
+				B06EAA8A25F0F82C0029E224 /* DeliveryCar.h */,
+				B06EAA8B25F0F82C0029E224 /* DeliveryCar.m */,
+				B06EAA6925F0E8240029E224 /* SecondManager.h */,
+				B06EAA6A25F0E8240029E224 /* SecondManager.m */,
+				B06EAA5125F0E7DA0029E224 /* Kitchen.h */,
+				B06EAA5225F0E7DA0029E224 /* Kitchen.m */,
 			);
 			path = Lab8;
 			sourceTree = "<group>";
@@ -270,6 +342,26 @@
 			path = Lab9;
 			sourceTree = "<group>";
 		};
+		B06EA9F125F0AE7B0029E224 /* Lab10 */ = {
+			isa = PBXGroup;
+			children = (
+				B06EA9F225F0AE7B0029E224 /* main.m */,
+				B06EAA0025F0AF620029E224 /* inputCollector.h */,
+				B06EAA0125F0AF620029E224 /* inputCollector.m */,
+				B06EAA3025F0C2FC0029E224 /* AmazonPaymentService.h */,
+				B06EAA3125F0C2FC0029E224 /* AmazonPaymentService.m */,
+				B06EAA4525F0E2F20029E224 /* ApplePaymentService.h */,
+				B06EAA4625F0E2F20029E224 /* ApplePaymentService.m */,
+				B06EAA1825F0C2CD0029E224 /* PaypalPaymentService.h */,
+				B06EAA1925F0C2CD0029E224 /* PaypalPaymentService.m */,
+				B06EAA2425F0C2E80029E224 /* StripePaymentService.h */,
+				B06EAA2525F0C2E80029E224 /* StripePaymentService.m */,
+				B06EAA0C25F0B3680029E224 /* PaymentGateway.h */,
+				B06EAA0D25F0B3680029E224 /* PaymentGateway.m */,
+			);
+			path = Lab10;
+			sourceTree = "<group>";
+		};
 		B0FE60BA25E46619001C3243 = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +373,7 @@
 				B06EA96E25EC49EE0029E224 /* Lab13 */,
 				B06EA99F25EF09990029E224 /* Lab8 */,
 				B06EA9BC25EF22280029E224 /* Lab9 */,
+				B06EA9F125F0AE7B0029E224 /* Lab10 */,
 				B0FE60C425E46619001C3243 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -296,6 +389,7 @@
 				B06EA96D25EC49EE0029E224 /* Lab13 */,
 				B06EA99E25EF09990029E224 /* Lab8 */,
 				B06EA9BB25EF22280029E224 /* Lab9 */,
+				B06EA9F025F0AE7B0029E224 /* Lab10 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -418,6 +512,23 @@
 			productReference = B06EA9BB25EF22280029E224 /* Lab9 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B06EA9EF25F0AE7B0029E224 /* Lab10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06EA9F625F0AE7B0029E224 /* Build configuration list for PBXNativeTarget "Lab10" */;
+			buildPhases = (
+				B06EA9EC25F0AE7B0029E224 /* Sources */,
+				B06EA9ED25F0AE7B0029E224 /* Frameworks */,
+				B06EA9EE25F0AE7B0029E224 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab10;
+			productName = Lab10;
+			productReference = B06EA9F025F0AE7B0029E224 /* Lab10 */;
+			productType = "com.apple.product-type.tool";
+		};
 		B0FE60C225E46619001C3243 /* Lab */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0FE60CA25E46619001C3243 /* Build configuration list for PBXNativeTarget "Lab" */;
@@ -493,6 +604,9 @@
 					B06EA9BA25EF22280029E224 = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					B06EA9EF25F0AE7B0029E224 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					B0FE60C225E46619001C3243 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -525,6 +639,7 @@
 				B06EA96C25EC49EE0029E224 /* Lab13 */,
 				B06EA99D25EF09990029E224 /* Lab8 */,
 				B06EA9BA25EF22280029E224 /* Lab9 */,
+				B06EA9EF25F0AE7B0029E224 /* Lab10 */,
 			);
 		};
 /* End PBXProject section */
@@ -564,8 +679,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06EAA8C25F0F82C0029E224 /* DeliveryCar.m in Sources */,
+				B06EAA5F25F0E8020029E224 /* NewManager.m in Sources */,
+				B06EAA9825F0FD4D0029E224 /* inputCollector.m in Sources */,
+				B06EAA6B25F0E8240029E224 /* SecondManager.m in Sources */,
 				B06EA9AE25EF0A350029E224 /* Pizza.m in Sources */,
 				B06EA9A125EF09990029E224 /* main.m in Sources */,
+				B06EAA5325F0E7DA0029E224 /* Kitchen.m in Sources */,
+				B06EAA8025F0F8190029E224 /* DeliveryService.m in Sources */,
+				B06EAAA425F1651D0029E224 /* RealManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +699,20 @@
 				B06EA9E325F073E50029E224 /* AnotherCook.m in Sources */,
 				B06EA9CC25EF22820029E224 /* FoodTruck.m in Sources */,
 				B06EA9D725EF239B0029E224 /* Cook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06EA9EC25F0AE7B0029E224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06EAA3225F0C2FC0029E224 /* AmazonPaymentService.m in Sources */,
+				B06EAA2625F0C2E80029E224 /* StripePaymentService.m in Sources */,
+				B06EAA0E25F0B3680029E224 /* PaymentGateway.m in Sources */,
+				B06EAA4725F0E2F20029E224 /* ApplePaymentService.m in Sources */,
+				B06EAA0225F0AF620029E224 /* inputCollector.m in Sources */,
+				B06EA9F325F0AE7B0029E224 /* main.m in Sources */,
+				B06EAA1A25F0C2CD0029E224 /* PaypalPaymentService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,6 +837,26 @@
 			name = Debug;
 		};
 		B06EA9C025EF22280029E224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG9YMW6U69;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B06EA9F425F0AE7B0029E224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG9YMW6U69;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B06EA9F525F0AE7B0029E224 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -925,6 +1081,15 @@
 			buildConfigurations = (
 				B06EA9BF25EF22280029E224 /* Debug */,
 				B06EA9C025EF22280029E224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06EA9F625F0AE7B0029E224 /* Build configuration list for PBXNativeTarget "Lab10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06EA9F425F0AE7B0029E224 /* Debug */,
+				B06EA9F525F0AE7B0029E224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
