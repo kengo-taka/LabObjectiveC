@@ -20,6 +20,10 @@
 		B06EA97C25EC4AD00029E224 /* NSString+Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EA97B25EC4AD00029E224 /* NSString+Pig.m */; };
 		B06EA9A125EF09990029E224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EA9A025EF09990029E224 /* main.m */; };
 		B06EA9AE25EF0A350029E224 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EA9AD25EF0A350029E224 /* Pizza.m */; };
+		B06EA9BE25EF22280029E224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EA9BD25EF22280029E224 /* main.m */; };
+		B06EA9CC25EF22820029E224 /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EA9CB25EF22820029E224 /* FoodTruck.m */; };
+		B06EA9D725EF239B0029E224 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EA9D625EF239B0029E224 /* Cook.m */; };
+		B06EA9E325F073E50029E224 /* AnotherCook.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EA9E225F073E50029E224 /* AnotherCook.m */; };
 		B0FE60C725E46619001C3243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FE60C625E46619001C3243 /* main.m */; };
 		B0FE60E325E5F722001C3243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FE60E225E5F722001C3243 /* main.m */; };
 		B0FE60E925E5F73C001C3243 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FE60D925E5E8D4001C3243 /* Box.m */; };
@@ -55,6 +59,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B06EA99C25EF09990029E224 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B06EA9B925EF22280029E224 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -119,6 +132,14 @@
 		B06EA9A025EF09990029E224 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B06EA9AC25EF0A350029E224 /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
 		B06EA9AD25EF0A350029E224 /* Pizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		B06EA9BB25EF22280029E224 /* Lab9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab9; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06EA9BD25EF22280029E224 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B06EA9CA25EF22820029E224 /* FoodTruck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
+		B06EA9CB25EF22820029E224 /* FoodTruck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
+		B06EA9D525EF239B0029E224 /* Cook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		B06EA9D625EF239B0029E224 /* Cook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
+		B06EA9E125F073E50029E224 /* AnotherCook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherCook.h; sourceTree = "<group>"; };
+		B06EA9E225F073E50029E224 /* AnotherCook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherCook.m; sourceTree = "<group>"; };
 		B0FE60C325E46619001C3243 /* Lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FE60C625E46619001C3243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0FE60D825E5E8D4001C3243 /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
@@ -152,6 +173,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B06EA99B25EF09990029E224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06EA9B825EF22280029E224 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,6 +256,20 @@
 			path = Lab8;
 			sourceTree = "<group>";
 		};
+		B06EA9BC25EF22280029E224 /* Lab9 */ = {
+			isa = PBXGroup;
+			children = (
+				B06EA9BD25EF22280029E224 /* main.m */,
+				B06EA9D525EF239B0029E224 /* Cook.h */,
+				B06EA9D625EF239B0029E224 /* Cook.m */,
+				B06EA9E125F073E50029E224 /* AnotherCook.h */,
+				B06EA9E225F073E50029E224 /* AnotherCook.m */,
+				B06EA9CA25EF22820029E224 /* FoodTruck.h */,
+				B06EA9CB25EF22820029E224 /* FoodTruck.m */,
+			);
+			path = Lab9;
+			sourceTree = "<group>";
+		};
 		B0FE60BA25E46619001C3243 = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +280,7 @@
 				B06EA94D25EA20660029E224 /* Lab6 */,
 				B06EA96E25EC49EE0029E224 /* Lab13 */,
 				B06EA99F25EF09990029E224 /* Lab8 */,
+				B06EA9BC25EF22280029E224 /* Lab9 */,
 				B0FE60C425E46619001C3243 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -252,6 +295,7 @@
 				B06EA94C25EA20660029E224 /* Lab6 */,
 				B06EA96D25EC49EE0029E224 /* Lab13 */,
 				B06EA99E25EF09990029E224 /* Lab8 */,
+				B06EA9BB25EF22280029E224 /* Lab9 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -357,6 +401,23 @@
 			productReference = B06EA99E25EF09990029E224 /* Lab8 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B06EA9BA25EF22280029E224 /* Lab9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06EA9C125EF22280029E224 /* Build configuration list for PBXNativeTarget "Lab9" */;
+			buildPhases = (
+				B06EA9B725EF22280029E224 /* Sources */,
+				B06EA9B825EF22280029E224 /* Frameworks */,
+				B06EA9B925EF22280029E224 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab9;
+			productName = Lab9;
+			productReference = B06EA9BB25EF22280029E224 /* Lab9 */;
+			productType = "com.apple.product-type.tool";
+		};
 		B0FE60C225E46619001C3243 /* Lab */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0FE60CA25E46619001C3243 /* Build configuration list for PBXNativeTarget "Lab" */;
@@ -429,6 +490,9 @@
 					B06EA99D25EF09990029E224 = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					B06EA9BA25EF22280029E224 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					B0FE60C225E46619001C3243 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -460,6 +524,7 @@
 				B06EA94B25EA20660029E224 /* Lab6 */,
 				B06EA96C25EC49EE0029E224 /* Lab13 */,
 				B06EA99D25EF09990029E224 /* Lab8 */,
+				B06EA9BA25EF22280029E224 /* Lab9 */,
 			);
 		};
 /* End PBXProject section */
@@ -501,6 +566,17 @@
 			files = (
 				B06EA9AE25EF0A350029E224 /* Pizza.m in Sources */,
 				B06EA9A125EF09990029E224 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06EA9B725EF22280029E224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06EA9BE25EF22280029E224 /* main.m in Sources */,
+				B06EA9E325F073E50029E224 /* AnotherCook.m in Sources */,
+				B06EA9CC25EF22820029E224 /* FoodTruck.m in Sources */,
+				B06EA9D725EF239B0029E224 /* Cook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +681,26 @@
 			name = Debug;
 		};
 		B06EA9A325EF09990029E224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG9YMW6U69;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B06EA9BF25EF22280029E224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG9YMW6U69;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B06EA9C025EF22280029E224 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -820,6 +916,15 @@
 			buildConfigurations = (
 				B06EA9A225EF09990029E224 /* Debug */,
 				B06EA9A325EF09990029E224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06EA9C125EF22280029E224 /* Build configuration list for PBXNativeTarget "Lab9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06EA9BF25EF22280029E224 /* Debug */,
+				B06EA9C025EF22280029E224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
